@@ -6,10 +6,10 @@ public class Bill3 {
 		String name2 = args[1];
 		String name3 = args[2];
 		int num = Integer.parseInt(args[3]);
-	    double sum = num/3.0;
+	    double sum = (double) num / 3;
 		double result1 = Math.ceil(sum);
 		
-		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + result1 + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + result1 + " Shekels each.");
 	
 	}
 }
